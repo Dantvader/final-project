@@ -19,8 +19,9 @@ app.get("/");
 
 app.use("/user", user);
 app.use(auth);
+/*
 app.use("/pokemon", pokemon);
-
+*/
 
 app.use(notFound);
 
